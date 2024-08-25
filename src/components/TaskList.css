@@ -1,0 +1,28 @@
+/* src/components/TaskList.css */
+.task-list {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .task-list input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .task-list button {
+    padding: 8px 12px;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+  
